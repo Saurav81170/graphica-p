@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 8px;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.searchbar input{
+    margin-top: 0px;
+    display: inline-block; 
+    width: 200px;
+    height: 10px; 
+    font-size: 16px;
+    background-color: hsl(62, 50%, 91%);
+    padding: 10px;
+    line-height: 40px; 
+    border-radius: 4px;
+    margin-left: 500px;
+}
+.searchicon i{
+    margin-right: 300px;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.button i{
+    font-size: 20px;  
+    height: 10px;     
+    width: 50px;    
+}
+.left{
+    padding-left: 30px;
+    position: fixed;
+    width: 500px;
+}
+.left img{
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: fixed;
+}
+.right{
+    z-index: 1;
+    padding-left: 30px;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 550px;
+    margin-top: 100px;    
+}
+.mainsection{
+    display: inline-block;
+}

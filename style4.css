@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 8px;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.searchbar input{
+    margin-top: 0px;
+    display: inline-block; 
+    width: 200px;
+    height: 10px; 
+    font-size: 16px;
+    background-color: hsl(62, 50%, 91%);
+    padding: 10px;
+    line-height: 40px; 
+    border-radius: 4px;
+    margin-left: 500px;
+}
+.searchicon i{
+    margin-right: 300px;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.button i{
+    font-size: 20px;  
+    height: 10px;     
+    width: 50px;    
+}
+.first{
+    height: 100px;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: blueviolet;
+}
+.YourPreparation h1{
+    padding-top: 30px;
+    color: black;
+    padding-left: 20px;
+}
+.vocabulary,.written,.listening,.speaking,.test,.pronounciation,.grammer,.JobInterview,.Presentation{
+    padding-top: 25px;
+    height: 200px;
+    width: 400px;
+    padding-left: 10px;
+    background-color: rgb(201, 201, 130);
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.middle4{
+    height: 40px;
+    width: 230px;
+    padding-top: 10px;
+    background-color:#5dd837;
+    border-radius: 6px;
+}
+.middle4 a{
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 25px;
+    color: rgb(244, 244, 241);  
+}
+.written{
+    margin-left: 500px;
+    margin-top: -225px;
+}
+.listening{
+    margin-left: 980px;
+    margin-top: -225px;
+}
+.pronounciation{
+    margin-left: 500px;
+    margin-top: -456px;
+}
+.grammer{
+    margin-left: 980px;
+    margin-top: -225px;
+}
+.test{
+    margin-left: 500px;
+}
+.interview{
+    padding-top: 30px;
+    color: black;
+    padding-left: 20px;
+    margin-top: 250px;
+}
+.Presentation{
+    margin-left: 500px;
+    margin-top:-225px;
+}
